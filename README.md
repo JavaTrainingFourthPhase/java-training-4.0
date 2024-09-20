@@ -11,7 +11,7 @@ This is a homework for the Java OOP Part I
 4. Go through the `Import Project` wizard by clicking `Next`.
 5. On `Please select project SDK` point it to your Java 11 JDK.
 6. Press `Ctrl+Alt+Shift+S` (`Command + ;`)and check that in your `Project Structure`.
-    value of `Project language level` is set to `8 - Lambdas, type annotations etc.`.
+    value of `Project language level` is set to `11 - 11 - Local variable syntax etc.`.
 7. Open `StudentTest` class, put your cursor on `@Test` annotation, press `Alt+Enter` 
     and choose `Add 'testng' to classpath`.  
 8. Set the value to `org.testng:testng:7.1.0` and mark checkbox `Download to`.
