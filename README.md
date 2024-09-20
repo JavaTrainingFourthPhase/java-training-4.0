@@ -2,22 +2,6 @@
 
 This is a homework for the Java OOP Part I
 
-## IntelliJ IDEA project configuration
-1. Clone this project to your local environment
-
-    ```git clone https://github.com/kermek/java-basics-hw03.git``` 
-2. Import in IntelliJ IDEA using `File -> New -> Project from Existing Sources...`.
-3. Select the directory that you cloned to.
-4. Go through the `Import Project` wizard by clicking `Next`.
-5. On `Please select project SDK` point it to your Java 11 JDK.
-6. Press `Ctrl+Alt+Shift+S` (`Command + ;`)and check that in your `Project Structure`.
-    value of `Project language level` is set to `11 - 11 - Local variable syntax etc.`.
-7. Open `StudentTest` class, put your cursor on `@Test` annotation, press `Alt+Enter` 
-    and choose `Add 'testng' to classpath`.  
-8. Set the value to `org.testng:testng:7.1.0` and mark checkbox `Download to`.
-9. Compilation should be without any errors (`Ctrl+F9` or `Command + F9`). 
-
-
 ## Student App
 
 Create Console Application project in Java. Add class Student to the project.
