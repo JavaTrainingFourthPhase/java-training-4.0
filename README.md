@@ -1,4 +1,4 @@
-# java-basics-hw03
+# java-basics-oop1
 
 This is a homework for the Java OOP Part I
 
