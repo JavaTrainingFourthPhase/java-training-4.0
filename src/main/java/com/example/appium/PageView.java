@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 public class PageView {
     AppiumDriver driver;
 
-    // TODO define textField MobileElement using @FindBy kind of annotations for iOS and Android
+    // TODO define textField WebElement using @FindBy kind of annotations for iOS and Android
 
     public PageView(AppiumDriver driver) {
         this.driver = driver;

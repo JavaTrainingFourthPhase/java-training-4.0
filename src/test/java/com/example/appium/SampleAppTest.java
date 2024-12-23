@@ -30,7 +30,8 @@ public class SampleAppTest {
             var options = new UiAutomator2Options()
                     .setPlatformName("Android")
                     .setDeviceName("PUT_YOUR_DEVICE_NAME_HERE")
-                    .setApp(Paths.get(path).resolve("ApiDemos-debug.apk").toString());
+                    .setApp(Paths.get(path).resolve("ApiDemos-debug.apk").toString())
+                    .setAppActivity(".view.TextFields");
 
             server = AppiumDriverLocalService.buildService(new AppiumServiceBuilder().usingAnyFreePort());
             server.start();
